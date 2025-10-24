@@ -16,6 +16,7 @@ import {
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { useState } from "react"
+import { cn } from "@/lib/utils"
 
 const formSchema = z.object({
   name: z.string().min(2, {

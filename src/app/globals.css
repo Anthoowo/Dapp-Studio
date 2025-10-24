@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    @apply scroll-behavior-smooth scroll-pt-16;
+    @apply scroll-smooth scroll-pt-16;
   }
 }
 
